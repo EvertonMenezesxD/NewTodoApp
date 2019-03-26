@@ -1,13 +1,12 @@
 import React from 'react'
-import If from '../template/if'
+import If from '../componentes/if'
+import LibraryIcon from '../componentes/libraryIcon'
 
 export default props =>  (
-    
     <If test={!props.hide}>
-            <button className={'btn btn-' +props.style}
+            <button className={'btn btn-'+props.style}
                 onClick={props.onClick}>
-            <i className={'fa fa-'+props.icon}></i>
+                <LibraryIcon icon={props.icon} />
             </button>
     </If>
-
 )
