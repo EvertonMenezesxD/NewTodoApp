@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
+import '../assets/css/custom.css'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Todo from '../todo/todo'
 import About from '../about/about'
