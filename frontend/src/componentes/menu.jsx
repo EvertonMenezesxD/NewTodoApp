@@ -10,9 +10,9 @@ export default props => (
 <nav className='navbar navbar-inverse'>
     <div className='container'>
         <div className='navbar-header'>
-            <a className='navbar-brand' href='#'>
+            <Link className='navbar-brand' to='/todos'>
                 <FontAwesomeIcon icon="calendar" /> TodoApp
-            </a>
+            </Link>
         </div>
         <div id='navbar' className='navbar-collapse collapse'>
             <ul className="nav navbar-nav">
